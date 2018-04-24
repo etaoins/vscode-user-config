@@ -5,5 +5,33 @@
     "workbench.fontAliasing": "auto",
     "vim.textwidth": 99,
     "rust.cfg_test": true,
-    "rust-client.channel": "nightly"
+    "rust-client.channel": "nightly",
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "]",
+                "c"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.editor.nextChange",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "c"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.editor.previousChange",
+                    "args": []
+                }
+            ]
+        }
+    ]
 }
