@@ -33,5 +33,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "files.associations": {
+        "*.rsp": "clojure"
+    }
 }
