@@ -36,5 +36,9 @@
     ],
     "files.associations": {
         "*.rsp": "clojure"
+    },
+    "[clojure]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     }
 }
