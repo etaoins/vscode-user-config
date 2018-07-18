@@ -6,7 +6,7 @@
     "vim.textwidth": 99,
     "rust.cfg_test": true,
     "rust-client.channel": "nightly",
-    "vim.otherModesKeyBindingsNonRecursive": [
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "]",
