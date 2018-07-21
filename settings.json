@@ -4,7 +4,6 @@
     "editor.lineNumbers": "relative",
     "workbench.fontAliasing": "auto",
     "vim.textwidth": 99,
-    "rust.cfg_test": true,
     "rust-client.channel": "nightly",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
