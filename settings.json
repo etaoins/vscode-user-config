@@ -34,7 +34,7 @@
         }
     ],
     "files.associations": {
-        "*.rsp": "clojure"
+        "*.arret": "clojure"
     },
     "[clojure]": {
         "editor.tabSize": 2,
