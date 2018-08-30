@@ -38,5 +38,13 @@
     "[clojure]": {
         "editor.tabSize": 2,
         "editor.detectIndentation": false
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     }
 }
