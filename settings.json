@@ -48,5 +48,14 @@
         "editor.detectIndentation": false
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.glyphMargin": false
+    "editor.glyphMargin": false,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "rust"
+    ]
 }
