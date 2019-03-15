@@ -50,8 +50,9 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.glyphMargin": false,
     "spellright.language": [
-        "en"
+        "en-AU"
     ],
+    "spellright.groupDictionaries": false,
     "spellright.documentTypes": [
         "markdown",
         "latex",
