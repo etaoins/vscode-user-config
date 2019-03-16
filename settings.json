@@ -58,5 +58,6 @@
         "latex",
         "plaintext",
         "rust"
-    ]
+    ],
+    "spellright.notificationClass": "information"
 }
