@@ -59,5 +59,10 @@
         "plaintext",
         "rust"
     ],
-    "spellright.notificationClass": "information"
+    "spellright.notificationClass": "information",
+    "spellright.ignoreRegExpsByClass": {
+        "rust": [
+            "/`[^`]*`/g"
+        ]
+    }
 }
