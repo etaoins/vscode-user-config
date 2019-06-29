@@ -1,68 +1,75 @@
 {
-    "workbench.statusBar.feedback.visible": false,
-    "editor.formatOnSave": true,
-    "editor.lineNumbers": "relative",
-    "workbench.fontAliasing": "auto",
-    "vim.textwidth": 99,
-    "vim.normalModeKeyBindingsNonRecursive": [
+  "workbench.statusBar.feedback.visible": false,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "workbench.fontAliasing": "auto",
+  "vim.textwidth": 99,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "]",
+        "c"
+      ],
+      "after": [],
+      "commands": [
         {
-            "before": [
-                "]",
-                "c"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.editor.nextChange",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": [
-                "[",
-                "c"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.editor.previousChange",
-                    "args": []
-                }
-            ]
+          "command": "workbench.action.editor.nextChange",
+          "args": []
         }
-    ],
-    "files.associations": {
-        "*.arret": "clojure"
+      ]
     },
-    "[clojure]": {
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false
-    },
-    "[typescript]": {
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.glyphMargin": false,
-    "spellright.language": [
-        "en-AU"
-    ],
-    "spellright.groupDictionaries": false,
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext",
-        "rust"
-    ],
-    "spellright.notificationClass": "information",
-    "spellright.ignoreRegExpsByClass": {
-        "rust": [
-            "/`[^`]*`/g"
-        ]
+    {
+      "before": [
+        "[",
+        "c"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.editor.previousChange",
+          "args": []
+        }
+      ]
     }
+  ],
+  "files.associations": {
+    "*.arret": "clojure"
+  },
+  "[clojure]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.glyphMargin": false,
+  "spellright.language": [
+    "en-AU"
+  ],
+  "spellright.groupDictionaries": false,
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "rust"
+  ],
+  "spellright.notificationClass": "information",
+  "spellright.ignoreRegExpsByClass": {
+    "rust": [
+      "/`[^`]*`/g"
+    ]
+  },
+  "rust-analyzer": {
+    "enableCargoWatchOnStartup": true,
+    "enableEnhancedTyping": false,
+    "cargo-watch": {
+      "command": "clippy"
+    }
+  }
 }
