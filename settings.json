@@ -1,15 +1,14 @@
 {
   "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.highlightModifiedTabs": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
+  "editor.acceptSuggestionOnEnter": "off",
   "workbench.fontAliasing": "auto",
   "vim.textwidth": 99,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "]",
-        "c"
-      ],
+      "before": ["]", "c"],
       "after": [],
       "commands": [
         {
@@ -19,10 +18,7 @@
       ]
     },
     {
-      "before": [
-        "[",
-        "c"
-      ],
+      "before": ["[", "c"],
       "after": [],
       "commands": [
         {
@@ -49,21 +45,12 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.glyphMargin": false,
-  "spellright.language": [
-    "en-AU"
-  ],
+  "spellright.language": ["en-AU"],
   "spellright.groupDictionaries": false,
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext",
-    "rust"
-  ],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "rust"],
   "spellright.notificationClass": "information",
   "spellright.ignoreRegExpsByClass": {
-    "rust": [
-      "/`[^`]*`/g"
-    ]
+    "rust": ["/`[^`]*`/g"]
   },
   "rust-analyzer": {
     "enableCargoWatchOnStartup": true,
