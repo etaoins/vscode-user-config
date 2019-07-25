@@ -3,7 +3,6 @@
   "workbench.editor.highlightModifiedTabs": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
-  "editor.acceptSuggestionOnEnter": "off",
   "workbench.fontAliasing": "auto",
   "vim.textwidth": 99,
   "vim.normalModeKeyBindingsNonRecursive": [
