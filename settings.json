@@ -7,7 +7,10 @@
   "vim.textwidth": 99,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["]", "c"],
+      "before": [
+        "]",
+        "c"
+      ],
       "after": [],
       "commands": [
         {
@@ -17,7 +20,10 @@
       ]
     },
     {
-      "before": ["[", "c"],
+      "before": [
+        "[",
+        "c"
+      ],
       "after": [],
       "commands": [
         {
@@ -32,11 +38,13 @@
   },
   "[clojure]": {
     "editor.tabSize": 2,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "vim.textwidth": 80
   },
   "[javascript]": {
     "editor.tabSize": 2,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "vim.textwidth": 80
   },
   "[typescript]": {
     "editor.tabSize": 2,
@@ -44,12 +52,21 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.glyphMargin": false,
-  "spellright.language": ["en-AU"],
+  "spellright.language": [
+    "en-AU"
+  ],
   "spellright.groupDictionaries": false,
-  "spellright.documentTypes": ["markdown", "latex", "plaintext", "rust"],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "rust"
+  ],
   "spellright.notificationClass": "information",
   "spellright.ignoreRegExpsByClass": {
-    "rust": ["/`[^`]*`/g"]
+    "rust": [
+      "/`[^`]*`/g"
+    ]
   },
   "rust-analyzer": {
     "enableCargoWatchOnStartup": true,
