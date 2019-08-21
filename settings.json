@@ -52,6 +52,7 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.glyphMargin": false,
+  "cSpell.diagnosticLevel": "Hint",
   "spellright.language": [
     "en-AU"
   ],
@@ -62,7 +63,7 @@
     "plaintext",
     "rust"
   ],
-  "spellright.notificationClass": "information",
+  "spellright.notificationClass": "hint",
   "spellright.ignoreRegExpsByClass": {
     "rust": [
       "/`[^`]*`/g"
