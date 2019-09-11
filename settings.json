@@ -51,6 +51,7 @@
     "editor.detectIndentation": false
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.autoImportSuggestions.enabled": false,
   "editor.glyphMargin": false,
   "cSpell.diagnosticLevel": "Hint",
   "spellright.language": [
