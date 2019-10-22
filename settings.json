@@ -75,7 +75,8 @@
     "enableEnhancedTyping": false,
     "cargo-watch": {
       "command": "clippy"
-    }
+    },
+    "displayInlayHints": false
   },
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
