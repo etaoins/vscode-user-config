@@ -76,5 +76,8 @@
     "cargo-watch": {
       "command": "clippy"
     }
-  }
+  },
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingQuotes": "never"
 }
