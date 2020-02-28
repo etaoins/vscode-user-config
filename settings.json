@@ -72,7 +72,8 @@
     "cargo-watch": {
       "command": "clippy"
     },
-    "displayInlayHints": false
+    "displayInlayHints": false,
+    "serverPath": "rust-analyzer",
   },
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
