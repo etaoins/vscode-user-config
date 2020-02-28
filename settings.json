@@ -1,6 +1,7 @@
 {
   "workbench.statusBar.feedback.visible": false,
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
   "workbench.fontAliasing": "auto",
