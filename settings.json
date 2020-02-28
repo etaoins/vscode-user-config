@@ -34,10 +34,7 @@
       ]
     }
   ],
-  "files.associations": {
-    "*.arret": "clojure"
-  },
-  "[clojure]": {
+  "[arret]": {
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "vim.textwidth": 80
