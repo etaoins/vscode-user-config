@@ -37,12 +37,10 @@
   "[arret]": {
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "vim.textwidth": 80
   },
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "vim.textwidth": 80
   },
   "[typescript]": {
     "editor.tabSize": 2,
