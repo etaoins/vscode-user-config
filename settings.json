@@ -80,5 +80,6 @@
   },
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
-  "editor.autoClosingQuotes": "never"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": false
 }
