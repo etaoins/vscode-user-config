@@ -54,16 +54,14 @@
     "rust": ["/`[^`]*`/g"]
   },
   "rust-analyzer": {
-    "enableCargoWatchOnStartup": true,
-    "enableEnhancedTyping": false,
-    "cargo-watch": {
-      "command": "clippy"
-    },
     "inlayHints": {
       "typeHints": false,
       "parameterHints": false
     },
-    "serverPath": "rust-analyzer",
+    "checkOnSave": {
+      "command": "clippy"
+    },
+    "serverPath": "rust-analyzer"
   },
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
