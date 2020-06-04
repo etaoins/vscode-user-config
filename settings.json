@@ -8,10 +8,7 @@
   "vim.textwidth": 99,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "]",
-        "c"
-      ],
+      "before": ["]", "c"],
       "after": [],
       "commands": [
         {
@@ -21,10 +18,7 @@
       ]
     },
     {
-      "before": [
-        "[",
-        "c"
-      ],
+      "before": ["[", "c"],
       "after": [],
       "commands": [
         {
@@ -34,13 +28,15 @@
       ]
     }
   ],
+  "arret.trace.server": "verbose",
+  "arret.builtRepository": "/Users/ryan/Code/arret",
   "[arret]": {
     "editor.tabSize": 2,
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": false
   },
   "[javascript]": {
     "editor.tabSize": 2,
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": false
   },
   "[typescript]": {
     "editor.tabSize": 2,
@@ -50,21 +46,12 @@
   "typescript.autoImportSuggestions.enabled": false,
   "editor.glyphMargin": false,
   "cSpell.diagnosticLevel": "Hint",
-  "spellright.language": [
-    "en-AU"
-  ],
+  "spellright.language": ["en-AU"],
   "spellright.groupDictionaries": false,
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext",
-    "rust"
-  ],
+  "spellright.documentTypes": ["markdown", "mdx", "latex", "plaintext", "rust"],
   "spellright.notificationClass": "hint",
   "spellright.ignoreRegExpsByClass": {
-    "rust": [
-      "/`[^`]*`/g"
-    ]
+    "rust": ["/`[^`]*`/g"]
   },
   "rust-analyzer": {
     "enableCargoWatchOnStartup": true,
