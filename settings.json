@@ -67,5 +67,6 @@
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.autoImports": false
+  "javascript.suggest.autoImports": false,
+  "workbench.settings.editor": "json"
 }
