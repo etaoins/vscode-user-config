@@ -69,8 +69,7 @@
     },
     "checkOnSave": {
       "command": "clippy"
-    },
-    "serverPath": "rust-analyzer"
+    }
   },
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingOvertype": "never",
