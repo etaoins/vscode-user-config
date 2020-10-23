@@ -5,6 +5,7 @@
   "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
   "workbench.fontAliasing": "auto",
+  "git.autofetch": true,
   "vim.textwidth": 99,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
