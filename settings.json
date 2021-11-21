@@ -76,5 +76,8 @@
   "editor.autoClosingOvertype": "never",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.autoImports": false,
-  "workbench.settings.editor": "json"
+  "workbench.settings.editor": "json",
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true
 }
