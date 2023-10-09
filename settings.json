@@ -46,7 +46,9 @@
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
