@@ -70,7 +70,8 @@
       "typeHints": false,
       "parameterHints": false
     },
-    "checkOnSave": {
+    "checkOnSave": true,
+    "check": {
       "command": "clippy"
     }
   },
